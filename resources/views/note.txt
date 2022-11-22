@@ -1,0 +1,31 @@
+REGISTRATION FORM {
+    [
+        . added phone number with country code[got my resource from twilio blog
+        . perform email validation on registration
+    ]
+
+    ROUTING
+    [
+        . use middleware to protect http request 
+        . redirecting user to their specific dashboard
+    ]
+
+    EMAIL
+    [
+        . email customization
+    ]
+
+    QUEUES AND JOB[
+        .setting up the queue config
+        . php artisan make:job // this creates a job command 
+    ]
+}
+ work on the redirect function *set it on it's own controller*
+ work on send mail with markdown.
+ set verification email, sms and  notification on queue and job.
+remember i have created a JOB called customerJob
+
+
+
+
+ 
